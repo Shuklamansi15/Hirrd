@@ -9,11 +9,12 @@ import Onboarding from "./pages/onboarding";
 import PostJob from "./pages/PostJobs";
 import JobListing from "./pages/job-listing";
 import MyJobs from "./pages/my_jobs";
-import SavedJobs from "./pages/savedJobs";
+
 import JobPage from "./pages/job";
 
 import "./App.css";
 import { ThemeProvider } from "./components/ui/theme-provider";
+import SavedJobs from "./pages/SavedJobs";
 
 
 const router = createBrowserRouter([
