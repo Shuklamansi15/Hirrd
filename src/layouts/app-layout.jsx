@@ -1,6 +1,7 @@
+import Header from '@/components/header'
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Header from '../components/Header' // Adjust the path to your custom Header component
+
 
 const AppLayout = () => {
   return (
