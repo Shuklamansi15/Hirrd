@@ -19,6 +19,7 @@ import * as z from "zod";
 import useFetch from "@/hooks/use-fetch";
 
 import { BarLoader } from "react-spinners";
+import { applyToJob } from "@/api/apiApplicatons";
 
 const schema = z.object({
   experience: z
